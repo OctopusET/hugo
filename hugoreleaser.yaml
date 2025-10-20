@@ -102,6 +102,7 @@ builds:
           - goarch: amd64
           - goarch: arm64
           - goarch: arm
+          - goarch: riscv64
             build_settings:
               env:
                 - CGO_ENABLED=0
